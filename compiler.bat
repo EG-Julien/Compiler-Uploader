@@ -1,0 +1,2 @@
+mkdir %cd%\Build
+"C:\Program Files (x86)\Arduino\arduino-builder" -compile -logger=machine -hardware "C:\Program Files (x86)\Arduino\hardware" -tools "C:\Program Files (x86)\Arduino\tools-builder" -tools "C:\Program Files (x86)\Arduino\hardware\tools\avr" -built-in-libraries "C:\Program Files (x86)\Arduino\libraries" -libraries "D:\Users\Juju\Documents\Arduino\libraries" -fqbn=arduino:avr:uno -ide-version=10610 -build-path %cd%\Build -warnings=all -prefs=build.warn_data_percentage=75 -verbose %cd%\%1
