@@ -17,3 +17,7 @@ Add this folder to your system path.
 
 ```D:\Project\iRoom\Arduino$ compiler sensors.c``` will compile sensors.c file. You can view the result in the Build folder.
 ```D:\Project\iRoom\Arduino$ uploader sensors.c 3``` will upload the previously compilated file (The script know it need to go in \Build\ to fing the compilated file) on the port **3**
+
+#Care : French content !
+
+J'ai rédiger un petit article sur ce système : https://www.elektra.cc/post/compiler-&-uploader-sur-atmega-dAY
